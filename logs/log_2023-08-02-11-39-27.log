@@ -1,0 +1,4 @@
+[2023-08-02 11:39:35,954] werkzeug - WARNING -  * Debugger is active!
+[2023-08-02 11:39:35,967] werkzeug - INFO -  * Debugger PIN: 140-924-851
+[2023-08-02 11:39:36,037] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-08-02 11:39:36,402] werkzeug - INFO - 127.0.0.1 - - [02/Aug/2023 11:39:36] "POST /predict HTTP/1.1" 200 -

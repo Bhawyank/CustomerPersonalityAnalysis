@@ -65,6 +65,10 @@ class DataIngestion:
             logging.info(f"{'='*20}Data Ingestion log completed.{'='*20} \n\n")
         except Exception as e:
             raise CpaException(e, sys) from e
+        
+        
+       
+      
 
 
 

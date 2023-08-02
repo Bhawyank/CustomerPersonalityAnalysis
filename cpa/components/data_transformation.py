@@ -49,3 +49,7 @@ class DataTransformation:
             logging.info(f"{'='*20}Data Transformation log completed.{'='*20} \n\n")
         except Exception as e:
             raise CpaException(e, sys) from e
+        
+        if __name__=="__main__":
+            obj=DataTransformation
+            obj.initiate_data_transformation()
